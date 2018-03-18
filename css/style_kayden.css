@@ -1,3 +1,100 @@
+#tendency .flower img {
+    position: absolute;
+    left: 0;
+}
+
+#tendency .q {
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+#tendency .q1 {-webkit-animation-name: tendency-q1; animation-name: tendency-q1;}
+#tendency .q2 {-webkit-animation-name: tendency-q2; animation-name: tendency-q2;}
+#tendency .q3 {-webkit-animation-name: tendency-q3; animation-name: tendency-q3;}
+#tendency .q4 {-webkit-animation-name: tendency-q4; animation-name: tendency-q4;}
+#tendency .q5 {-webkit-animation-name: tendency-q5; animation-name: tendency-q5;}
+#tendency .q6 {-webkit-animation-name: tendency-q6; animation-name: tendency-q6;}
+
+@-webkit-keyframes tendency-q1 {
+    0% {opacity: 0;}
+    14% {opacity: 0;}
+    15% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes tendency-q1 {
+    0% {opacity: 0;}
+    14% {opacity: 0;}
+    15% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q2 {
+    0% {opacity: 0;}
+    29% {opacity: 0;}
+    30% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes tendency-q2 {
+    0% {opacity: 0;}
+    29% {opacity: 0;}
+    30% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q3 {
+    0% {opacity: 0;}
+    44% {opacity: 0;}
+    45% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes tendency-q3 {
+    0% {opacity: 0;}
+    44% {opacity: 0;}
+    45% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q4 {
+    0% {opacity: 0;}
+    59% {opacity: 0;}
+    60% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes tendency-q4 {
+    0% {opacity: 0;}
+    59% {opacity: 0;}
+    60% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q5 {
+    0% {opacity: 0;}
+    74% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes tendency-q5 {
+    0% {opacity: 0;}
+    74% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q6 {
+    0% {opacity: 0;}
+    89% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes tendency-q6 {
+    0% {opacity: 0;}
+    89% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
 #reinvent .bird img {
     position: absolute;
     left: 0;
