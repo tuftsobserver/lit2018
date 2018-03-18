@@ -1,0 +1,25 @@
+#reinvent .bird img {
+    position: absolute;
+    left: 0;
+}
+
+#reinvent .exclaim {
+    -webkit-animation-name: reinvent-bird-fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-name: reinvent-bird-fade;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes reinvent-bird-fade {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes reinvent-bird-fade {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
