@@ -1,13 +1,91 @@
-#tendency .flower img {
-    position: absolute;
-    left: 0;
+#tendency,
+#reinvent {
+  padding: 40px;
+  background: url("../img/tendency-canvas.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#tendency {
+  border-bottom: 3px dashed #636362;
+}
+
+#tendency .highlight,
+#reinvent .highlight {
+  background-image: linear-gradient(rgba(255,0,0,0.3) 50%, rgba(255,0,0,0.3) 50%);
+  background-size: 200% 50%;
+  background-repeat: repeat-x;
+  background-position: -100% 100%;
+}
+
+#reinvent .highlight {
+  background-image: linear-gradient(rgba(255,255,0,0.4) 50%, rgba(255,255,0,0.4) 50%);
+}
+
+#tendency .holder,
+#reinvent .holder {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#tendency .item,
+#reinvent .item {
+  width: 50%;
+  align-self: center;
+}
+
+#tendency .inner-text,
+#reinvent .inner-text {
+  margin: 0 auto;
+  display: table;
+}
+
+#tendency .flower-anim,
+#reinvent .bird-anim {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#tendency .flower-anim img,
+#reinvent .bird-anim img {
+  position: absolute;
+  max-width: 100%;
+}
+
+@media (max-width: 750px) {
+  #tendency .item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1665px) {
+  #reinvent .item {
+    width: 100%;
+  }
 }
 
 #tendency .q {
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+#reinvent .exclaim {
+  -webkit-animation-name: reinvent-bird-fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  animation-name: reinvent-bird-fade;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
 
 #tendency .q1 {-webkit-animation-name: tendency-q1; animation-name: tendency-q1;}
@@ -18,105 +96,91 @@
 #tendency .q6 {-webkit-animation-name: tendency-q6; animation-name: tendency-q6;}
 
 @-webkit-keyframes tendency-q1 {
-    0% {opacity: 0;}
-    14% {opacity: 0;}
-    15% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  14% {opacity: 0;}
+  15% {opacity: 1;}
+  100% {opacity: 1;}
 }
 @keyframes tendency-q1 {
-    0% {opacity: 0;}
-    14% {opacity: 0;}
-    15% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  14% {opacity: 0;}
+  15% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes tendency-q2 {
-    0% {opacity: 0;}
-    29% {opacity: 0;}
-    30% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  29% {opacity: 0;}
+  30% {opacity: 1;}
+  100% {opacity: 1;}
 }
 @keyframes tendency-q2 {
-    0% {opacity: 0;}
-    29% {opacity: 0;}
-    30% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  29% {opacity: 0;}
+  30% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes tendency-q3 {
-    0% {opacity: 0;}
-    44% {opacity: 0;}
-    45% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  44% {opacity: 0;}
+  45% {opacity: 1;}
+  100% {opacity: 1;}
 }
 @keyframes tendency-q3 {
-    0% {opacity: 0;}
-    44% {opacity: 0;}
-    45% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  44% {opacity: 0;}
+  45% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes tendency-q4 {
-    0% {opacity: 0;}
-    59% {opacity: 0;}
-    60% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  59% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
 }
 @keyframes tendency-q4 {
-    0% {opacity: 0;}
-    59% {opacity: 0;}
-    60% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  59% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes tendency-q5 {
-    0% {opacity: 0;}
-    74% {opacity: 0;}
-    75% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  74% {opacity: 0;}
+  75% {opacity: 1;}
+  100% {opacity: 1;}
 }
 @keyframes tendency-q5 {
-    0% {opacity: 0;}
-    74% {opacity: 0;}
-    75% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  74% {opacity: 0;}
+  75% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes tendency-q6 {
-    0% {opacity: 0;}
-    89% {opacity: 0;}
-    90% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  89% {opacity: 0;}
+  90% {opacity: 1;}
+  100% {opacity: 1;}
 }
 @keyframes tendency-q6 {
-    0% {opacity: 0;}
-    89% {opacity: 0;}
-    90% {opacity: 1;}
-    100% {opacity: 1;}
-}
-
-#reinvent .bird img {
-    position: absolute;
-    left: 0;
-}
-
-#reinvent .exclaim {
-    -webkit-animation-name: reinvent-bird-fade;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 2s;
-    animation-name: reinvent-bird-fade;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
+  0% {opacity: 0;}
+  89% {opacity: 0;}
+  90% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes reinvent-bird-fade {
-    0% {opacity: 0;}
-    50% {opacity: 1;}
-    100% {opacity: 0;}
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
 }
 
 @keyframes reinvent-bird-fade {
-    0% {opacity: 0;}
-    50% {opacity: 1;}
-    100% {opacity: 0;}
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
 }
