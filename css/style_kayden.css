@@ -42,7 +42,7 @@
 
 #tendency .inner-text,
 #reinvent .inner-text {
-  margin: 0 auto;
+  margin: 20px auto;
   display: table;
 }
 
@@ -186,7 +186,7 @@
 }
 
 #liminal {
-  padding: 0 40px;
+  padding: 100px 40px;
   overflow-x: hidden;
 }
 
@@ -223,4 +223,105 @@
   #liminal {
     padding: 0 10px;
   }
+}
+
+#retail {
+  margin: 100px 0;
+  background: url(../img/retail-2-dark.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#retail .inner-text {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  color: white;
+}
+
+#retail h2 {
+  font-size: 40px;
+}
+
+#retail p {
+  margin: 1em 0 0;
+}
+
+#retail .empty {
+  height: 200px;
+}
+
+@media (max-width: 600px) {
+  #retail .inner-text {
+    padding: 20px 10px;
+  }
+}
+
+#joke {
+  margin: 100px 0;
+  background: url(../img/joke.jpg) no-repeat center center fixed;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  color: black;
+}
+
+#joke .inner-text {
+  margin: 20px auto;
+  padding: 20px 10px;
+  display: table;
+}
+
+#joke h2 {
+  font-size: 40px;
+}
+
+#joke p {
+  margin: 0 0 1em;
+}
+
+#credits {
+  background: url(../img/credits.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  text-align: left;
+  color: white;
+
+  padding: 100px 40px;
+}
+
+#credits h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  border-bottom: red solid 4px;
+}
+
+#credits li {
+  margin: 0;
+  list-style: none;
+}
+
+#credits .page {
+  font-weight: bold;
+}
+
+#credits a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#parting img {
+  width: 100%;
+  height: auto;
 }
