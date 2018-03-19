@@ -185,19 +185,21 @@
   100% {opacity: 0;}
 }
 
+#liminal {
+  padding: 0 40px;
+  overflow-x: hidden;
+}
+
 #liminal .third {
   position: relative;
-  margin: 20px 40px;
+  margin: 20px 0;
   padding: 20px;
-  /*display: table;*/
-
   background-repeat: no-repeat;
   background-size: auto 100%;
 }
 
 #liminal h1,
 #liminal h2 {
-  margin: 0 40px;
   color: #b43b8a;
   text-align: left;
 }
@@ -218,12 +220,7 @@
 }
 
 @media (max-width: 600px) {
-  #liminal .third {
-    margin: 20px 10px;
-  }
-
-  #liminal h1,
-  #liminal h2 {
-    margin: 0 10px;
+  #liminal {
+    padding: 0 10px;
   }
 }
