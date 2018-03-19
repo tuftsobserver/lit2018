@@ -184,3 +184,46 @@
   50% {opacity: 1;}
   100% {opacity: 0;}
 }
+
+#liminal .third {
+  position: relative;
+  margin: 20px 40px;
+  padding: 20px;
+  /*display: table;*/
+
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+#liminal h1,
+#liminal h2 {
+  margin: 0 40px;
+  color: #b43b8a;
+  text-align: left;
+}
+
+#liminal p {
+  margin: 0;
+  color: white;
+}
+
+#liminal .top {
+  background-image: url(../img/liminal-face-1.png);
+}
+#liminal .mid {
+  background-image: url(../img/liminal-face-2.png);
+}
+#liminal .bottom {
+  background-image: url(../img/liminal-face-3.png);
+}
+
+@media (max-width: 600px) {
+  #liminal .third {
+    margin: 20px 10px;
+  }
+
+  #liminal h1,
+  #liminal h2 {
+    margin: 0 10px;
+  }
+}
