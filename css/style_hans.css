@@ -1,0 +1,268 @@
+.tab { width: 20px; display: inline-block; }
+.double { width: 40px; }
+.triple { width: 60px; }
+.quad { width: 80px; }
+.quint { width: 100px; }
+.sext { width: 120px; }
+#chains, #diaspora, #seja, #violence, #bumblebees, #canyon {
+    position: relative;
+    padding: 50px 20px;
+}
+/***** General *****/
+
+
+/***** INSET *****/
+
+
+
+/***** Chains *****/
+#chains {
+    background: #cfcece;
+    color: white;
+}
+#chains-img {
+    position: absolute;
+        right: 5%;
+        bottom: 5%;
+    width: 40%;
+    max-width: 700px;
+}
+#chains-img img {
+    width: 100%;
+    height: auto;
+}
+#chains-content{
+    width: 50%;
+    max-width: 800px;
+}
+@media (min-width: 2000px) {
+    #chains-content { position: absolute; right: 55%; }
+    #chains-img { left: 55%; }
+}
+@media (max-width: 550px) {
+    #chains-content {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #chains-img {
+        position: relative;
+        left: 40%;
+    }
+}
+
+/***** Diaspora *****/
+#diaspora, #seja {
+    background-image: url('../img/hans-img/diaspora_1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+#diaspora-content, #seja-content {
+    color: black;
+    background: white;
+    width: 70%;
+    max-width: 1400px;
+    padding: 40px;
+    position: relative;
+        z-index: 6;
+        left: 60%;
+        transform: translate(-50%, 0);
+}
+.disej-content p {
+    /*display: inline-block;*/
+}
+#diaspora {
+    padding-top: calc(400px + 5vh);
+}
+#diaspora-title {
+    position: absolute;
+        top: calc(200px + 5vh);
+        left: 5vw;
+        z-index: 6;
+    text-align: left;
+}
+#diaspora-finger, #diaspora-hand, #seja-finger, #seja-hand {
+    position: absolute;
+        top: 5vh;
+        left: 0;
+        z-index: 5;
+    width: 40%;
+    max-width: 800px;
+}
+#diaspora-finger, #seja-finger { z-index: 7; }
+#diaspora-finger img, #diaspora-hand img, #seja-hand img, #seja-finger img {
+    width: 100%;
+    height: auto;
+}
+
+/***** Seja *****/
+#seja {
+    padding-bottom: calc(200px + 5vh);
+    padding-top: 200px;
+    margin-top: -1px;
+}
+#seja-title {
+    position: absolute;
+        left: 5vw;
+        top: 50px;
+    text-align: left;
+}
+#seja-hand, #seja-finger {
+    bottom: 5vh;
+    right: 0;
+    left: auto;
+    transform: rotate(180deg);
+}
+#seja-content{
+    min-width: 500px;
+    width: 45%;
+    max-width: 600px;
+}
+#seja-content h6 {
+    font-weight: 700;
+    padding: 0;
+    margin: 15px;
+}
+/*#seja-content h6:nth-child(1) { text-align: right; }
+#seja-content p:nth-child(2) {
+    text-align: right;
+}*/
+
+@media (min-width: 2000px) {
+    #seja { padding-top: 0; }
+    #seja-content { left: 75%; }
+}
+
+
+
+/***** Violence *****/
+.violence-title {
+    position: absolute;
+    width: 30%;
+    overflow-y: wrap;
+}
+.violence-title h5 { text-align: center; }
+.violence-content {
+    position: relative;
+    padding-top: 20px;
+    width: 500px;
+}
+#violence-1, #violence-title-2 {
+    left: 15%;
+}
+#violence-2, #violence-title-1 {
+    left: 55%;
+}
+#violence-1 { padding-bottom: 50px; }
+.violence-line {
+    background: black;
+    display: inline-block;
+    width: 100%;
+    height: 15px;
+    line-height: .5;
+}
+.p-text {
+    display: inline-block;
+    padding: 0 30px 0 0;
+    background: white;
+    line-height: .75;
+}
+#violence-section-2 {
+    padding: 50px;
+    margin: auto -20px;
+    width: calc(100% + 40px);
+    height: auto;
+    background: black;
+    color: white;
+}
+#violence-title-2 h2 {
+    font-size: 70px;
+}
+#violence-2 .violence-line {
+    background: white;
+}
+#violence-2 .p-text {
+    background: black;
+    padding: 0 20px;
+}
+.violence-bar-2 {
+    display: inline-block;
+    width: 60%;
+    height: 15px;
+    background: yellow;
+}
+
+
+/***** Bumblebees *****/
+#bumblebees {
+    margin-top: -100px;
+}
+#bumblebees-1, #bumblebees-2 {
+    position: absolute;
+        z-index: 0;
+    height: 50%;
+    margin: 0 -20px;
+    width: 100%;
+    background-image: url('../img/hans-img/bumblebees_1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+#bumblebees-2 {
+    top: 50%;
+    background-image: url('../img/hans-img/bumblebees_2.jpg');
+}
+#bumblebees-content {
+    position: relative;
+        z-index: 5;
+        top: 50%;
+    background: white;
+    padding: 40px;
+    margin: 200px 100px;
+    width: 60%;
+    max-width: 1000px;
+}
+#bumblebees-title {
+    position: absolute;
+        z-index: 6;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 60%;
+    color: white;
+    text-align: left;
+    mix-blend-mode: difference;
+}
+@media (min-width: 2000px) {
+    #bumblebees-content {
+        position: absolute;
+            top: 50%;
+            right: 40%;
+            transform: translate(0, -50%);
+    }
+}
+
+/***** Chaco *****/
+#chaco-title {
+    text-align: right;
+}
+#chaco-content {
+    position: relative;
+        left: 60%;
+    width: 50%;
+    max-width: 500px;
+    padding: 50px 0;
+    background: white;
+}
+#canyon {
+    background: url('../img/hans-img/chaco.png');
+        background-position: left bottom;
+        background-size: 50%;
+        background-repeat: no-repeat;
+}
+@media (max-width: 550px) {
+    #chaco-content {
+        width: 80%;
+        left: 20%;
+    }
+}
