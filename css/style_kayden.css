@@ -1,0 +1,327 @@
+#tendency,
+#reinvent {
+  padding: 40px;
+  background: url("../img/tendency-canvas.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#tendency {
+  border-bottom: 3px dashed #636362;
+}
+
+#tendency .highlight,
+#reinvent .highlight {
+  background-image: linear-gradient(rgba(255,0,0,0.3) 50%, rgba(255,0,0,0.3) 50%);
+  background-size: 200% 50%;
+  background-repeat: repeat-x;
+  background-position: -100% 100%;
+}
+
+#reinvent .highlight {
+  background-image: linear-gradient(rgba(255,255,0,0.4) 50%, rgba(255,255,0,0.4) 50%);
+}
+
+#tendency .holder,
+#reinvent .holder {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#tendency .item,
+#reinvent .item {
+  width: 50%;
+  align-self: center;
+}
+
+#tendency .inner-text,
+#reinvent .inner-text {
+  margin: 20px auto;
+  display: table;
+}
+
+#tendency .flower-anim,
+#reinvent .bird-anim {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#tendency .flower-anim img,
+#reinvent .bird-anim img {
+  position: absolute;
+  max-width: 100%;
+}
+
+@media (max-width: 750px) {
+  #tendency .item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1665px) {
+  #reinvent .item {
+    width: 100%;
+  }
+}
+
+#tendency .q {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+#reinvent .exclaim {
+  -webkit-animation-name: reinvent-bird-fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  animation-name: reinvent-bird-fade;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+#tendency .q1 {-webkit-animation-name: tendency-q1; animation-name: tendency-q1;}
+#tendency .q2 {-webkit-animation-name: tendency-q2; animation-name: tendency-q2;}
+#tendency .q3 {-webkit-animation-name: tendency-q3; animation-name: tendency-q3;}
+#tendency .q4 {-webkit-animation-name: tendency-q4; animation-name: tendency-q4;}
+#tendency .q5 {-webkit-animation-name: tendency-q5; animation-name: tendency-q5;}
+#tendency .q6 {-webkit-animation-name: tendency-q6; animation-name: tendency-q6;}
+
+@-webkit-keyframes tendency-q1 {
+  0% {opacity: 0;}
+  14% {opacity: 0;}
+  15% {opacity: 1;}
+  100% {opacity: 1;}
+}
+@keyframes tendency-q1 {
+  0% {opacity: 0;}
+  14% {opacity: 0;}
+  15% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q2 {
+  0% {opacity: 0;}
+  29% {opacity: 0;}
+  30% {opacity: 1;}
+  100% {opacity: 1;}
+}
+@keyframes tendency-q2 {
+  0% {opacity: 0;}
+  29% {opacity: 0;}
+  30% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q3 {
+  0% {opacity: 0;}
+  44% {opacity: 0;}
+  45% {opacity: 1;}
+  100% {opacity: 1;}
+}
+@keyframes tendency-q3 {
+  0% {opacity: 0;}
+  44% {opacity: 0;}
+  45% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q4 {
+  0% {opacity: 0;}
+  59% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
+}
+@keyframes tendency-q4 {
+  0% {opacity: 0;}
+  59% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q5 {
+  0% {opacity: 0;}
+  74% {opacity: 0;}
+  75% {opacity: 1;}
+  100% {opacity: 1;}
+}
+@keyframes tendency-q5 {
+  0% {opacity: 0;}
+  74% {opacity: 0;}
+  75% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes tendency-q6 {
+  0% {opacity: 0;}
+  89% {opacity: 0;}
+  90% {opacity: 1;}
+  100% {opacity: 1;}
+}
+@keyframes tendency-q6 {
+  0% {opacity: 0;}
+  89% {opacity: 0;}
+  90% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes reinvent-bird-fade {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes reinvent-bird-fade {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+#liminal {
+  padding: 100px 40px;
+  overflow-x: hidden;
+}
+
+#liminal .third {
+  position: relative;
+  margin: 20px 0;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+#liminal h1,
+#liminal h2 {
+  color: #b43b8a;
+  text-align: left;
+}
+
+#liminal p {
+  margin: 0;
+  color: white;
+}
+
+#liminal .top {
+  background-image: url(../img/liminal-face-1.png);
+}
+#liminal .mid {
+  background-image: url(../img/liminal-face-2.png);
+}
+#liminal .bottom {
+  background-image: url(../img/liminal-face-3.png);
+}
+
+@media (max-width: 600px) {
+  #liminal {
+    padding: 0 10px;
+  }
+}
+
+#retail {
+  margin: 100px 0;
+  background: url(../img/retail-2-dark.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#retail .inner-text {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  color: white;
+}
+
+#retail h2 {
+  font-size: 40px;
+}
+
+#retail p {
+  margin: 1em 0 0;
+}
+
+#retail .empty {
+  height: 200px;
+}
+
+@media (max-width: 600px) {
+  #retail .inner-text {
+    padding: 20px 10px;
+  }
+}
+
+#joke {
+  margin: 100px 0;
+  background: url(../img/joke.jpg) no-repeat center center fixed;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  color: black;
+}
+
+#joke .inner-text {
+  margin: 20px auto;
+  padding: 20px 10px;
+  display: table;
+}
+
+#joke h2 {
+  font-size: 40px;
+}
+
+#joke p {
+  margin: 0 0 1em;
+}
+
+#credits {
+  background: url(../img/credits.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  text-align: left;
+  color: white;
+
+  padding: 100px 40px;
+}
+
+#credits h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  border-bottom: red solid 4px;
+}
+
+#credits li {
+  margin: 0;
+  list-style: none;
+}
+
+#credits .page {
+  font-weight: bold;
+}
+
+#credits a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#parting img {
+  width: 100%;
+  height: auto;
+}
