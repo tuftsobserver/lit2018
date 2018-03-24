@@ -1,19 +1,104 @@
+/***** General *****/
 .tab { width: 20px; display: inline-block; }
 .double { width: 40px; }
 .triple { width: 60px; }
 .quad { width: 80px; }
 .quint { width: 100px; }
 .sext { width: 120px; }
-#chains, #diaspora, #seja, #violence, #bumblebees, #canyon {
+#inset, #chains, #diaspora, #seja, #violence, #bumblebees, #canyon {
     position: relative;
     padding: 50px 20px;
 }
-/***** General *****/
-
 
 /***** INSET *****/
+/*#cfe2ed
+#fefad6*/
+#inset { padding: 0; }
+.inset-section { position: relative; }
+.inset-bg {
+    position: absolute;
+        top: -5%;
+        z-index: 1;
+    height: 70%;
+    width: 100%;
+    background: #cfe2ed;
+}
+.inset-img {
+    margin: 5%;
+    position: relative;
+        z-index: 2;
+    display: block;
+    width: 50%;
+    height: auto;
+    /*transition: all .001s ease;*/
+}
+.inset-img img {
+    width: 100%;
+    height: auto;
+}
+#inset-bg-2 {
+    bottom: -5%;
+    top: auto;
+    background: #fefad6;
+}
+#inset-img-2 { left: 40%; }
+#inset-2-text, #inset-3-text {
+    display: inline-block;
+    position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    margin: 6% 0 4% 0;
+}
+#inset-2 .inset-img {
+    margin: 20px auto;
+}
+#inset-bg-3 {
+    background: #fefad6;
+    bottom: -5%;
+    top: auto;
+    width: 50%;
+    height: 50%;
+}
+#inset-img-6 { margin: 0 auto; }
+#inset-img-6 img {
+    position: absolute;
+        top: 0;
+        z-index: 1;
+}
+#inset-img-6-2 { right: 0; }
+#inset-img-6-3 { right: 0; bottom: 0; left: auto; }
+#inset-img-6 img:first-child { position: relative; z-index: 0; }
+#inset-4 {
+    min-height: 100vh;
+}
+#inset-bg-4 {
+    right: 0;
+    top: -25%;
+    width: 50vw;
+    height: 50%;
+}
+#inset-bg-5 {
+    right: 0;
+    top: auto;
+    bottom: 0;
+    width: 50vw;
+    height: 50%;
+}
+#inset-img-7 {
+    position: relative;
+    margin: 50vh auto 0 auto;
+}
 
-
+@media (max-width: 550px) {
+    #inset-img-2 { left: 10%; }
+    #inset-2-text, #inset-3-text {
+        width: 80%;
+        font-size: 12px;
+    }
+    .inset-img {
+        width: 80%;
+    }
+}
 
 /***** Chains *****/
 #chains {
@@ -36,6 +121,7 @@
     max-width: 800px;
 }
 @media (min-width: 2000px) {
+    #chains { min-height: 100vh; }
     #chains-content { position: absolute; right: 55%; }
     #chains-img { left: 55%; }
 }
@@ -234,6 +320,7 @@
     mix-blend-mode: difference;
 }
 @media (min-width: 2000px) {
+    #bumblebees { min-height: 100vh; }
     #bumblebees-content {
         position: absolute;
             top: 50%;
