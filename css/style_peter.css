@@ -3,7 +3,6 @@
 		background-image: url("../img/leditor-1.jpeg");
 		background-color: #000;
 
-		/* Create the parallax scrolling effect */
 		background-attachment: fixed;
 		background-position: 0% 0%;
 		background-repeat: no-repeat;
@@ -20,7 +19,6 @@
 @media (max-width: 700px) {
 	#ledditor h1 {
 		font-size: 3.5em;
-		/*margin: 0;*/
 	}
 
 	#ledditor p {
@@ -94,35 +92,9 @@
 	}
 }
 @media (min-width: 501px) {
-	/*#ruth {
-		background-image: url(../img/ruth-2.png);
-		background-repeat: no-repeat;
-		background-size: 900px;
-		background-position: 40% 0%;
-	}*/
-
-	/*#ruth h1 {
-		font-size: 3em;
-		color: white;
-		padding-top: 100vh;
-	}*/
-
-	/*#ruth h4 {
-		font-size: 2em;
-		margin-bottom: 0;
-		padding-bottom: 0;
-	}*/
-
 	#ruth .ruth-text {
 		margin-top: 2vh;
-		/*padding-bottom: 10vh;*/
 	}
-	/*#ruth .ruth-text p {
-		padding-bottom: 0;
-		margin-bottom: 5vh;
-		margin-left: 30%;
-		font-size: 0.8em;
-	}*/
 
 }
 
@@ -392,7 +364,6 @@
 	background-image: url("../img/mariana-1.jpg");
 	background-color: #000;
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: 100% 0%;
     background-repeat: no-repeat;
@@ -419,7 +390,6 @@
 		background-image: url("../img/mariana-1.jpg");
 		background-color: #000;
 
-		/* Create the parallax scrolling effect */
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
