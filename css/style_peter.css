@@ -1,0 +1,430 @@
+/************** LEditors *******************/
+#ledditor {
+		background-image: url("../img/leditor-1.jpeg");
+		background-color: #000;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: 0% 0%;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		padding-bottom: 15vh;
+	}
+
+#ledditor .leditor-txt {
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
+
+@media (max-width: 700px) {
+	#ledditor h1 {
+		font-size: 3.5em;
+		/*margin: 0;*/
+	}
+
+	#ledditor p {
+		background-color: rgba(0, 0, 0, 0.3);
+		padding: 2vw;
+	}
+}
+
+/************** Ruth *******************/
+
+
+@media (min-width: 800px) {
+	#ruth {
+		background-image: url(../img/ruth-2.png);
+		background-repeat: no-repeat;
+		background-size: 900px;
+		background-position: 40% 0%;
+	}
+
+	#ruth h1 {
+		font-size: 3em;
+		color: white;
+		padding-top: 72vh;
+	}
+
+	#ruth .ruth-text p {
+		padding-bottom: 0;
+		margin-bottom: 5vh;
+		margin-left: 30%;
+		font-size: 0.8em;
+	}
+	#ruth h4 {
+		font-size: 2em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	#ruth .ruth-text {
+		padding-top: 10vh;
+		padding-bottom: 20vh;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 799px) {
+	#ruth {
+		background-image: url(../img/ruth-2.png);
+		background-repeat: no-repeat;
+		background-size: 720px;
+		background-position: 60% 0%;
+	}
+
+	#ruth h1 {
+		font-size: 2em;
+		color: white;
+		padding-top: 65vh;
+	}
+
+	#ruth h4 {
+		font-size: 1.5em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	#ruth .ruth-text p {
+		padding-bottom: 0;
+		margin-bottom: 5vh;
+		margin-left: 30%;
+		font-size: 0.65em;
+	}
+	#ruth .ruth-text {
+		padding-bottom: 20vh;
+	}
+}
+@media (min-width: 501px) {
+	/*#ruth {
+		background-image: url(../img/ruth-2.png);
+		background-repeat: no-repeat;
+		background-size: 900px;
+		background-position: 40% 0%;
+	}*/
+
+	/*#ruth h1 {
+		font-size: 3em;
+		color: white;
+		padding-top: 100vh;
+	}*/
+
+	/*#ruth h4 {
+		font-size: 2em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}*/
+
+	#ruth .ruth-text {
+		margin-top: 2vh;
+		/*padding-bottom: 10vh;*/
+	}
+	/*#ruth .ruth-text p {
+		padding-bottom: 0;
+		margin-bottom: 5vh;
+		margin-left: 30%;
+		font-size: 0.8em;
+	}*/
+
+}
+
+@media (max-width: 500px) {
+	#ruth {
+		background-image: url(../img/ruth-1.png);
+		background-size: 100% 100%;
+	}
+	#ruth h1, p {
+		color: white;
+	}
+
+	#ruth h4 {
+		font-size: 2em;
+	}
+
+	#ruth h1 {
+		padding-top: 7vh;
+	}
+	#ruth p {
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+
+	#ruth .ruth-text {
+		padding-bottom: 10vh;
+	}
+
+}
+
+
+
+
+/************** Abuelito ***************/
+#abuelito .italic {
+	font-style: italic;
+}
+#abuelito h1, h4 {
+	font-size: 3em;
+	text-align: center;
+}
+
+#abuelito h1, h4, p {
+	color: white;
+}
+
+@media (min-width: 501px) {
+	#abuelito p{
+		padding: 0;
+		margin: 0;
+	}
+
+	#abuelito .abuelito-text {
+		padding-left: 10vw;
+		padding-bottom: 10vh;
+	}
+
+	#abuelito br {
+		display: none;
+	}
+
+	#abuelito {
+		background-image: url("../img/abuelito-2.png");
+		background-position: 50% 0%;
+		background-size: 150%;
+	}
+	#abuelito .right {
+		padding-left: 10vw;
+	}
+
+	#abuelito .space {
+		padding-top: 10vh;
+	}
+
+
+}
+@media (max-width: 500px) {
+	#abuelito {
+		background-image: url("../img/abuelito-1.png");
+		background-position: 55% 0%;
+		background-size: 180% 100%;
+		background-repeat: no-repeat;
+	}
+	#abuelito .abuelito-text {
+		margin-left: 5vw;
+		margin-right: 5vw;
+		padding-bottom: 10vh;
+	}
+	#abuelito p {
+		display: inline-block;
+		background-color: rgba(161, 69, 41, 0.3);
+		padding: 0;
+		margin: 0;
+		font-size: 0.8em;
+	}
+	#abuelito .right {
+		padding-left: 10vw;
+	}
+
+	#abuelito .right-br {
+		padding-left: 10vw;
+	}
+}
+
+/************** Alien ******************/
+
+#alien h4 {
+		text-align: center;
+}
+
+
+#alien .italic {
+	font-style: italic;
+}
+
+@media (min-width: 501px) {
+	#alien {
+		height: 280%;
+		background: linear-gradient(to right bottom, #FFF 50%, #000 50%);
+	}
+	#alien #alien-text {
+		position: absolute;
+		margin-left: 100px;
+		width: 150px;
+		margin-left: 20vw;
+	}
+	#alien #alien-text p {
+		color: black;
+		margin: 0;
+		background-color: rgba(255, 255, 255, 0.5);
+		text-align: justify;
+		text-align-last: justify;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	#alien-img-1 {
+		float: right;
+		margin-right: 20vw;
+	}
+	#alien h1, #alien h4 {
+		color: black;
+	}
+}
+
+@media (max-width: 500px) {
+	#alien h1, #alien h4 {
+		color: white;
+	}
+	#alien {
+		background-color: #000;
+		height: 215%;
+	}
+
+	#alien #alien-text {
+		margin-left: 40px;
+		position: absolute;
+		width: 130px;
+
+	}
+
+	#alien p {
+		background-color: rgba(0, 0, 0, 0.3);
+		margin: 0;
+		color: white;
+		padding: 0;
+		text-align: justify;
+		text-align-last: justify;
+	}
+
+	#alien img {
+		float: right;
+		margin-top: 50%;
+		margin-left: 50%;
+		height: 450px;
+	}
+}
+
+@media (max-width: 374px) {
+	#alien {
+		height: 260%;
+	}
+}
+
+
+/************** Maui ******************/
+
+#maui {
+	background-color: #000;
+}
+#maui p, h1, h4{
+	color: white;
+}
+
+#maui p {
+	margin: 0;
+	padding-bottom: 5vh;
+	font-size: 0.9em;
+
+}
+#maui img {
+	width: 400px;
+}
+#maui #maui-top {
+	display: flex;
+}
+#maui #maui-bottom {
+	display: flex;
+}
+
+#maui .maui-text .maui-txt-1 {
+	margin-left: 20vw;
+}
+
+@media (max-width: 500px) {
+	#maui h1 {
+		padding-top: 10vh;
+	}
+	#maui p {
+		font-size: 1em;
+	}
+	#maui #maui-top, #maui #maui-bottom {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#maui img {
+		width: 200px;
+		padding-bottom: 5vh;
+	}
+
+
+}
+@media (min-width: 501px) {
+
+	#maui #maui-bottom {
+		margin: 0;
+		margin-top: -8%;
+		padding: 0;
+		flex-direction: row-reverse;	
+		justify-content: space-around;
+
+	}
+
+	#maui #maui-top {
+		margin-left: -20%;
+		padding: 0;	
+		justify-content: center;
+
+	}
+
+	#maui #maui-top #maui-img-1 {
+		padding-top: 30vh;
+		padding-left: 10vw;
+	}
+
+	#maui #maui-img-2 {
+		padding-top: 30vh;
+	}
+
+	#maui .maui-txt-2 {
+		margin-left: -15%;
+	}
+}
+
+/******** Marina ********/
+#mariana {
+	background-image: url("../img/mariana-1.jpg");
+	background-color: #000;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+#mariana h1 {
+	font-size: 2.5em;
+}
+
+#mariana h4 {
+	font-size: 2em;
+}
+#mariana p {
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
+
+@media (max-width: 500px) {
+	#mariana {
+		background-image: url("../img/mariana-1.jpg");
+		background-color: #000;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		padding-bottom: 15vh;
+	}
+}
