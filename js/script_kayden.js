@@ -1,9 +1,17 @@
 $(".flower-anim").height($(".flower").height());
 $(".bird-anim").height($(".bird").height());
 
+$("#diaspora-content").css('top',$("#diaspora-title").height() + 200);
+$("#diaspora").css('padding-bottom', $("#diaspora-title").height() + 200);
+
+
+
+
 $(window).resize(function() {
   $(".flower-anim").height($(".flower").height());
   $(".bird-anim").height($(".bird").height());
+  $("#diaspora-content").css('top',$("#diaspora-title").height() + 200);
+  $("#diaspora").css('padding-bottom', $("#diaspora-title").height() + 200);
 });
 
 // item: jquery selector for thing you want to move

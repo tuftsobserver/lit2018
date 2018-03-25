@@ -5,7 +5,13 @@
 .quad { width: 80px; }
 .quint { width: 100px; }
 .sext { width: 120px; }
-#inset, #chains, #diaspora, #seja, #violence, #bumblebees, #canyon {
+#inset,
+#chains,
+#diaspora,
+#seja,
+#violence,
+#bumblebees,
+#canyon {
     position: relative;
     padding: 50px 20px;
 }
@@ -13,7 +19,10 @@
 /***** INSET *****/
 /*#cfe2ed
 #fefad6*/
-#inset { padding: 0; }
+#inset {
+  padding: 0;
+  overflow-x: hidden;
+}
 .inset-section { position: relative; }
 .inset-bg {
     position: absolute;
@@ -42,7 +51,8 @@
     background: #fefad6;
 }
 #inset-img-2 { left: 40%; }
-#inset-2-text, #inset-3-text {
+#inset-2-text,
+#inset-3-text {
     display: inline-block;
     position: relative;
         left: 50%;
@@ -91,7 +101,8 @@
 
 @media (max-width: 550px) {
     #inset-img-2 { left: 10%; }
-    #inset-2-text, #inset-3-text {
+    #inset-2-text,
+    #inset-3-text {
         width: 80%;
         font-size: 12px;
     }
@@ -138,14 +149,16 @@
 }
 
 /***** Diaspora *****/
-#diaspora, #seja {
+#diaspora,
+#seja {
     background-image: url('../img/hans-img/diaspora_1.png');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
     color: white;
 }
-#diaspora-content, #seja-content {
+#diaspora-content,
+#seja-content {
     position: relative;
         z-index: 6;
         left: 60%;
@@ -156,9 +169,9 @@
     max-width: 1400px;
     padding: 40px;
 }
-#diaspora {
+/*#diaspora {
     padding-top: calc(400px + 5vh);
-}
+}*/
 #diaspora-title {
     position: absolute;
         top: calc(200px + 5vh);
@@ -166,7 +179,10 @@
         z-index: 6;
     text-align: left;
 }
-#diaspora-finger, #diaspora-hand, #seja-finger, #seja-hand {
+#diaspora-finger,
+#diaspora-hand,
+#seja-finger,
+#seja-hand {
     position: absolute;
         top: 5vh;
         left: 0;
@@ -174,39 +190,36 @@
     width: 40%;
     max-width: 800px;
 }
-#diaspora-finger, #seja-finger { z-index: 7; }
-#diaspora-finger img, #diaspora-hand img, #seja-hand img, #seja-finger img {
+#diaspora-finger,
+#seja-finger { z-index: 7; }
+#diaspora-finger img,
+#diaspora-hand img,
+#seja-hand img,
+#seja-finger img {
     width: 100%;
     height: auto;
 }
-@media (max-width: 550px) {
-    #diaspora-content {
-        width: 80%;
-        left: 50%;
-        top: 8vh;
-    }
-    #seja-content {
-        top: 15vh;
-    }
-    #diaspora-title { top: calc(100px + 5vh); }
-    #diaspora-finger, #diaspora-hand, #seja-finger, #seja-hand {
-        width: 80%;
-    }
-}
+
 
 /***** Seja *****/
 #seja {
     padding-bottom: calc(200px + 5vh);
     padding-top: 200px;
     margin-top: -1px;
+    overflow-x: hidden;
 }
 #seja-title {
-    position: absolute;
-        left: 5vw;
-        top: 50px;
+    /*position: absolute;*/
+        /*left: 5vw;
+        top: 50px;*/
     text-align: left;
 }
-#seja-hand, #seja-finger {
+
+#seja h1 {
+  text-align: left;
+}
+#seja-hand,
+#seja-finger {
     bottom: 5vh;
     right: 0;
     left: auto;
@@ -228,6 +241,26 @@
     text-align: right;
 }*/
 
+@media (max-width: 550px) {
+    #diaspora-content {
+        width: 80%;
+        left: 50%;
+        top: 8vh;
+    }
+    #seja-content {
+        width: 100%;
+        min-width: 0;
+        right: 0;
+    }
+    #diaspora-title { top: calc(100px + 5vh); }
+    #diaspora-finger,
+    #diaspora-hand,
+    #seja-finger,
+    #seja-hand {
+        width: 80%;
+    }
+}
+
 @media (min-width: 2000px) {
     #seja { padding-top: 0; }
     #seja-content { left: 75%; }
@@ -247,10 +280,12 @@
     padding-top: 20px;
     width: 500px;
 }
-#violence-1, #violence-title-2 {
+#violence-1,
+#violence-title-2 {
     left: 15%;
 }
-#violence-2, #violence-title-1 {
+#violence-2,
+#violence-title-1 {
     left: 55%;
 }
 #violence-1 { padding-bottom: 50px; }
@@ -294,7 +329,7 @@
     height: 15px;
     background: yellow;
 }
-@media (max-width: 550px) {
+@media (max-width: 1400px) {
     .violence-title {
         position: relative;
         width: 100%;
@@ -302,6 +337,9 @@
     #violence-1, #violence-2, #violence-title-1, #violence-title-2 {
         left: 0;
         width: 100%;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #violence-title-2 h1 { font-size: 70px; }
     #violence-title-2 .sext { width: 90px; }
@@ -311,11 +349,29 @@
     }
 }
 
+@media (max-width: 400px) {
+  #violence .p-text {
+    font-size: 5vw;
+  }
+
+  #violence-title-1 h2 { font-size: 16.5vw; }
+
+  #violence-title-1 .tab { width: 5vw; }
+  #violence-title-1 .character { width: 6.5vw; }
+  #violence-title-1 .sext { width: 22.5vw; }
+  #violence-title-1 .triple { width: 15vw; }
+  .violence-line {
+    height: 5vw;
+  }
+
+}
+
 /***** Bumblebees *****/
 #bumblebees {
     margin-top: -100px;
 }
-#bumblebees-1, #bumblebees-2 {
+#bumblebees-1,
+#bumblebees-2 {
     position: absolute;
         z-index: 0;
     height: 50%;
@@ -359,12 +415,15 @@
             transform: translate(0, -50%);
     }
 }
-@media (max-width: 550px) {
+@media (max-width: 1350px) {
     #bumblebees-title {
         position: relative;
             top: 20px;
             left: 0;
             transform: translate(0, 0);
+    }
+    #bumblebees h5 {
+      text-align: center;
     }
     #bumblebees-content {
         width: 80%;
@@ -375,6 +434,13 @@
         margin: 0;
     }
 }
+
+@media (max-width: 500px) {
+  #bumblebees h1 {
+    font-size: 15vw;
+  }
+}
+
 /***** Chaco *****/
 #chaco-title {
     text-align: right;
