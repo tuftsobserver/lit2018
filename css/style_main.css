@@ -140,7 +140,7 @@ h2 {
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background-color: #82afd7;
+  background-color: #2b6d5a;
   -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
   -moz-transition: -moz-transform 0.2s, background-color 0.5s;
   transition: transform 0.2s, background-color 0.5s;
@@ -177,4 +177,31 @@ h2 {
   .no-touch #cd-vertical-nav {
     display: none;
   }
+}
+
+
+#toc {
+  background: url(../img/cloth.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: 100px 20px;
+}
+
+#toc ul {
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+#toc a {
+  color: inherit;
+}
+
+#toc h1,
+#toc h2 {
+  color: #2b6d5a;
 }

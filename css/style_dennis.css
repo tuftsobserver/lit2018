@@ -220,8 +220,50 @@
 	padding: 20px;
 }
 
+#unraveling .center-img {
+	text-align: center;
+}
+
 @media (max-width: 500px) {
 	#unraveling {
 		border: solid 20px #84CBF1;
+	}
+}
+
+
+#tropical {
+	background: url(../img/dennis-img/sno-rotate.jpeg) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	color: white;
+	padding: 100px 20px;
+}
+
+#tropical h1 {
+	font-size: 60px;
+}
+
+#tropical h4 {
+	text-align: center;
+}
+
+#tropical .inner-text {
+	max-width: 800px;
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+}
+
+@media screen and (orientation:portrait) {
+
+	#tropical {
+		background: url(../img/dennis-img/sno.jpeg) no-repeat center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 	}
 }
