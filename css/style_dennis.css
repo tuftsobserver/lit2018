@@ -1,0 +1,165 @@
+#letter {
+	padding-bottom: 50px;
+	background-image: url('../img/dennis-img/letter.jpg');
+    background-size: 100% 100%;
+}
+
+#letter-title {
+	padding-top: 350px;
+	padding-left: 80px;
+}
+
+#letter-title h1{
+	text-align: left;
+}
+
+#letter-title h5 {
+	margin-bottom: 30px;
+}
+
+#letter-content {
+	padding-left: 80px;
+}
+
+#letter-content p {
+	margin-bottom: 20px;
+}
+
+#you-know {
+	padding-bottom: 50px;
+}
+
+#youknow-title img{
+	margin: 0 auto;
+	display: block;
+}
+
+.fadein {
+    animation: fadein 1s both;
+    animation-delay: .1s;
+}
+
+@keyframes fadein{
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+#bluebox {
+	width: 500px;
+	height: 750px;
+	right: 156px;
+	background: #E4F5FD;
+	position: absolute;
+	z-index: -1;
+}
+
+#bluebox:hover {
+	background: #392fde;
+	transition: background-color .3s linear;
+}
+
+#youknow-author {
+
+}
+
+#youknow-content {
+	margin-top: 50px;
+	padding-left: 350px;
+}
+
+#youknow-content p {
+	margin-bottom: 20px;
+}
+
+#inning {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #638F81;
+}
+
+#inning-title h5 {
+	text-align: center;
+}
+
+#inning-content {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+#agua {
+	border: solid 50px #FFD646;
+	padding-left: 50px;
+}
+
+#agua-title {
+	padding-top: 40px;
+}
+
+#agua-title h1{
+	text-align: left;
+	font-size: 3rem;
+}
+
+#agua-title h5 {
+	margin-bottom: 0px;
+	font-size: 2rem;
+}
+
+#agua-content {
+	display: block;
+	margin-top: 150px;
+}
+
+#agua-content p {
+	margin-bottom: 15px;
+}
+
+#agua img{
+	position: absolute;
+	left: 240px;
+
+}
+
+#unraveling {
+	border: solid 50px #84CBF1;
+	padding-left: 50px;
+}
+
+#unraveling-title {
+	padding-top: 40px;
+}
+
+#unraveling-title h1{
+	text-align: left;
+	font-size: 3rem;
+}
+
+#unraveling-title h5 {
+	margin-bottom: 0px;
+	font-size: 2rem;
+}
+
+#unraveling-content {
+	display: block;
+	margin-top: 20px;
+	width: 90%;
+}
+
+#unraveling-content p {
+	margin-bottom: 15px;
+}
+
+#unraveling img{
+	display: block;
+	margin: 0 auto;
+}
+
