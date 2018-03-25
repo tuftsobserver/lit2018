@@ -103,7 +103,7 @@
 /***** Chains *****/
 #chains {
     background: #cfcece;
-    color: white;
+    /*color: white;*/
 }
 #chains-img {
     position: absolute;
@@ -221,6 +221,7 @@
     font-weight: 700;
     padding: 0;
     margin: 15px;
+    margin-left: 0;
 }
 /*#seja-content h6:nth-child(1) { text-align: right; }
 #seja-content p:nth-child(2) {
@@ -320,14 +321,14 @@
     height: 50%;
     margin: 0 -20px;
     width: 100%;
-    background-image: url('../img/hans-img/bumblebees_1.jpg');
+    background-image: url('../img/hans-img/bumblebees_1.JPG');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
 }
 #bumblebees-2 {
     top: 50%;
-    background-image: url('../img/hans-img/bumblebees_2.jpg');
+    background-image: url('../img/hans-img/bumblebees_2.JPG');
 }
 #bumblebees-content {
     position: relative;
@@ -365,7 +366,7 @@
             left: 0;
             transform: translate(0, 0);
     }
-    #bumblebees-content { 
+    #bumblebees-content {
         width: 80%;
         top: 0;
         left: 10%;

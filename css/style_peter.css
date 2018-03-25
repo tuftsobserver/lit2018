@@ -9,6 +9,8 @@
 		background-size: cover;
 
 		padding-bottom: 15vh;
+
+		color: white;
 	}
 
 #ledditor .leditor-txt {
@@ -36,11 +38,12 @@
 		background-repeat: no-repeat;
 		background-size: 900px;
 		background-position: 40% 0%;
+
+		color: white;
 	}
 
 	#ruth h1 {
 		font-size: 3em;
-		color: white;
 		padding-top: 72vh;
 	}
 
@@ -54,6 +57,7 @@
 		font-size: 2em;
 		margin-bottom: 0;
 		padding-bottom: 0;
+		text-align: center;
 	}
 
 	#ruth .ruth-text {
@@ -103,7 +107,8 @@
 		background-image: url(../img/ruth-1.png);
 		background-size: 100% 100%;
 	}
-	#ruth h1, p {
+	#ruth h1,
+	#ruth p {
 		color: white;
 	}
 
@@ -132,12 +137,15 @@
 #abuelito .italic {
 	font-style: italic;
 }
-#abuelito h1, h4 {
+#abuelito h1,
+#abuelito h4 {
 	font-size: 3em;
 	text-align: center;
 }
 
-#abuelito h1, h4, p {
+#abuelito h1,
+#abuelito h4,
+#abuelito p {
 	color: white;
 }
 
@@ -234,13 +242,15 @@
 		float: right;
 		margin-right: 20vw;
 	}
-	#alien h1, #alien h4 {
+	#alien h1,
+	#alien h4 {
 		color: black;
 	}
 }
 
 @media (max-width: 500px) {
-	#alien h1, #alien h4 {
+	#alien h1,
+	#alien h4 {
 		color: white;
 	}
 	#alien {
@@ -284,8 +294,14 @@
 #maui {
 	background-color: #000;
 }
-#maui p, h1, h4{
+#maui p,
+#maui h1,
+#maui h4{
 	color: white;
+}
+
+#maui h4{
+	text-align: center;
 }
 
 #maui p {
@@ -308,6 +324,11 @@
 	margin-left: 20vw;
 }
 
+
+#maui .maui-bottomtxt-2 {
+	text-align: right;
+}
+
 @media (max-width: 500px) {
 	#maui h1 {
 		padding-top: 10vh;
@@ -315,7 +336,8 @@
 	#maui p {
 		font-size: 1em;
 	}
-	#maui #maui-top, #maui #maui-bottom {
+	#maui #maui-top,
+	#maui #maui-bottom {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -333,14 +355,14 @@
 		margin: 0;
 		margin-top: -8%;
 		padding: 0;
-		flex-direction: row-reverse;	
+		flex-direction: row-reverse;
 		justify-content: space-around;
 
 	}
 
 	#maui #maui-top {
 		margin-left: -20%;
-		padding: 0;	
+		padding: 0;
 		justify-content: center;
 
 	}
@@ -371,6 +393,8 @@
 
     padding-top: 5vh;
     padding-bottom: 15vh;
+
+		color: white;
 }
 
 #mariana h1 {
@@ -379,6 +403,7 @@
 
 #mariana h4 {
 	font-size: 2em;
+	text-align: center;
 }
 #mariana p {
 	margin-left: 25vw;

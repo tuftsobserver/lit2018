@@ -12,6 +12,11 @@
   border-bottom: 3px dashed #636362;
 }
 
+#tendency h2,
+#reinvent h2 {
+  font-size: 40px;
+}
+
 #tendency .highlight,
 #reinvent .highlight {
   background-image: linear-gradient(rgba(255,0,0,0.3) 50%, rgba(255,0,0,0.3) 50%);
@@ -204,6 +209,10 @@
   text-align: left;
 }
 
+#liminal h2 {
+  font-size: 40px;
+}
+
 #liminal p {
   margin: 0;
   color: white;
@@ -264,7 +273,7 @@
 
 #joke {
   margin: 100px 0;
-  background: url(../img/joke.jpg) no-repeat center center fixed;
+  background: url(../img/joke-light.jpg) no-repeat center center fixed;
   -webkit-background-size: auto 100%;
   -moz-background-size: auto 100%;
   -o-background-size: auto 100%;
