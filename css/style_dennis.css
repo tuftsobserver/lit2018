@@ -1,0 +1,227 @@
+#letter {
+	padding-bottom: 50px;
+	background: url(../img/dennis-img/letter.jpg) no-repeat top center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+#letter-title {
+	padding-top: 350px;
+	padding-left: 80px;
+}
+
+#letter-title h1 {
+	text-align: left;
+}
+
+#letter-title h5 {
+	margin-bottom: 30px;
+}
+
+#letter-content {
+	padding-left: 80px;
+}
+
+#letter-content p {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+	#letter-content {
+		padding: 20px;
+	}
+
+	#letter-title {
+		padding: 100px 20px 20px;
+	}
+}
+
+
+
+#you-know {
+	border: 50px solid white;
+
+	background-color: #E4F5FD;
+}
+
+#youknow-title {
+	text-align: center;
+}
+
+#youknow-title img {
+	width: 100%;
+	max-width: 1000px;
+}
+
+#youknow-content {
+	display: table;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#youknow-content p {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+	#you-know {
+		border: 10px solid white;
+	}
+}
+
+#inning-title h5 {
+	text-align: center;
+}
+
+#inning-content {
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#inning .flip {
+	-webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
+	-moz-transform: rotate(180deg);        /* FF */
+	-o-transform: rotate(180deg);          /* Opera */
+	-ms-transform: rotate(180deg);         /* IE9 */
+	transform: rotate(180deg);             /* W3C compliant browsers */
+}
+
+#inning .inning-img {
+	text-align: right;
+}
+
+#inning img {
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+#agua {
+	border: solid 50px #FFD646;
+	/*padding: 20px;*/
+
+	background: url(../img/dennis-img/agua-double.png) no-repeat top right;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	text-align: center;
+}
+
+#agua-title {
+	margin-top: 100px;
+	display: inline-block;
+
+	color: #FFD646;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
+#agua-title h1{
+	text-align: left;
+	display: inline-block;
+	font-size: 3rem;
+	text-align: center;
+}
+
+#agua-title h5 {
+	margin-bottom: 0px;
+	display: inline-block;
+
+	font-size: 2rem;
+}
+
+#agua-content {
+	display: table;
+	margin: 50px auto;
+	padding: 20px;
+
+	text-align: left;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+#agua-content p {
+	margin-bottom: 15px;
+}
+
+#agua img {
+	position: absolute;
+	right: 50px;
+}
+
+@media (max-width: 500px) {
+	#agua {
+		border: solid 20px #FFD646;
+		/*border: none;*/
+		background: url(../img/dennis-img/agua.png) no-repeat top right;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		text-align: cover;
+	}
+
+	#agua-content {
+		margin: 0 auto;
+		background-color: rgba(0,0,0,0.8);
+
+	}
+
+	#agua-title {
+		margin-top: 0;
+		background-color: rgba(0,0,0,0.8);
+		padding: 0;
+	}
+}
+
+
+
+
+#unraveling {
+	border: solid 50px #84CBF1;
+	padding: 20px;
+}
+
+
+#unraveling-title h1{
+	font-size: 3rem;
+}
+
+#unraveling-title h5 {
+	margin-bottom: 0px;
+	font-size: 2rem;
+	text-align: center;
+}
+
+#unraveling-content {
+	margin-top: 20px;
+	/*width: 90%;*/
+	display: table;
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+#unraveling-content p {
+	margin-bottom: 15px;
+}
+
+#unraveling img{
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 20px;
+}
+
+@media (max-width: 500px) {
+	#unraveling {
+		border: solid 20px #84CBF1;
+	}
+}

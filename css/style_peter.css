@@ -111,7 +111,7 @@
 	}
 
 	#abuelito {
-		background-image: url("../img/abuelito-2.png");
+		background-image: url("../img/abuelito-2.jpg");
 		background-position: 50% 0%;
 		background-size: 150%;
 	}
@@ -127,7 +127,7 @@
 }
 @media (max-width: 500px) {
 	#abuelito {
-		background-image: url("../img/abuelito-1.png");
+		background-image: url("../img/abuelito-1.jpg");
 		background-position: 55% 0%;
 		background-size: 180% 100%;
 		background-repeat: no-repeat;
