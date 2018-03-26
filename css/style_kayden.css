@@ -15,6 +15,9 @@
 #tendency h2,
 #reinvent h2 {
   font-size: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  text-transform: none;
 }
 
 #tendency .highlight,
@@ -207,10 +210,13 @@
 #liminal h2 {
   color: #b43b8a;
   text-align: left;
+  text-transform: none;
 }
 
 #liminal h2 {
   font-size: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
 }
 
 #liminal p {
@@ -255,6 +261,9 @@
 
 #retail h2 {
   font-size: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  text-transform: none;
 }
 
 #retail p {
@@ -289,6 +298,9 @@
 
 #joke h2 {
   font-size: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  text-transform: none;
 }
 
 #joke p {
